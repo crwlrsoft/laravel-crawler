@@ -1,6 +1,6 @@
 <?php
 
-namespace Crwlr\PackageTemplate;
+namespace Crwlr\LaravelCrawler;
 
 class ExampleClass
 {

@@ -6,7 +6,7 @@ this package. So first off: Awesome! 👍🤘
 ## Bugs
 
 In case you encounter any bugs please
-[file an issue](https://github.com/crwlrsoft/.../issues/new).
+[file an issue](https://github.com/crwlrsoft/laravel-crawler/issues/new).
 Describe the issue as well as you can and provide an example to
 reproduce it.  
 Maybe you're not 100 percent sure whether what you've discovered
@@ -29,7 +29,7 @@ guarantee that your feature will be merged.
 ### Coding Style
 
 This package follows the
-[PSR-12](https://www.php-fig.org/psr/psr-12/) coding standard.
+[PER Coding Style](https://www.php-fig.org/per/coding-style/).
 You can run PHP CS Fixer via `composer cs` for a dry run or
 `composer cs-fix` to automatically fix code style issues.
 

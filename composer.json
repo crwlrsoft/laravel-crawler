@@ -1,10 +1,15 @@
 {
-    "name": "crwlr/package-template",
-    "description": "Template repository for new crwlr packages.",
+    "name": "crwlr/laravel-crawler",
+    "description": "Laravel adapter for the crwlr/crawler package.",
     "keywords": [
-        "crwlr"
+        "crwlr",
+        "laravel",
+        "crawler",
+        "adapter",
+        "scraping",
+        "crawling"
     ],
-    "homepage": "https://www.crwlr.software/packages/...",
+    "homepage": "https://www.crwlr.software/packages/laravel-crawler",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,22 +20,23 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/crwlrsoft/.../issues",
-        "source": "https://github.com/crwlrsoft/...",
-        "docs": "https://www.crwlr.software/packages/..."
+        "issues": "https://github.com/crwlrsoft/laravel-crawler/issues",
+        "source": "https://github.com/crwlrsoft/laravel-crawler",
+        "docs": "https://www.crwlr.software/packages/laravel-crawler"
     },
     "autoload": {
         "psr-4": {
-            "Crwlr\\PackageTemplate\\": "src/"
+            "Crwlr\\LaravelCrawler\\": "src/"
         }
     },
     "require": {
-        "php": "^8.0"
+        "php": "^8.1",
+        "crwlr/crawler": "^1.0"
     },
     "require-dev": {
-        "pestphp/pest": "^1.22",
-        "phpstan/phpstan": "^1.8",
-        "friendsofphp/php-cs-fixer": "^3.11"
+        "pestphp/pest": "^2.19",
+        "phpstan/phpstan": "^1.10",
+        "friendsofphp/php-cs-fixer": "^3.30"
     },
     "scripts": {
         "test": "@php vendor/bin/pest",
